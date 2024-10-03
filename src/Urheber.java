@@ -4,7 +4,7 @@ public class Urheber {
 	private String nachname;
 	private String firmenname;
 	
-	public Urheber(String vorname, String nachname, String firmenname) {
+	public Urheber(String vorname) {
 		super();
 		this.vorname = vorname;
 		this.nachname = nachname;

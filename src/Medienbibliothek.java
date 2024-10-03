@@ -1,7 +1,11 @@
 import java.util.ArrayList;
 
 public class Medienbibliothek {
-ArrayList<Medium> medienliste;
+public ArrayList<Medium> medienliste;
+
+public Medienbibliothek(){
+    medienliste = new ArrayList<>();
+}
 
 public void mediumhinzufügen(Medium medium) {
     medienliste.add(medium);
@@ -20,5 +24,6 @@ public void suchemedium(ArrayList<Medium> medienlist, String titel){
          return;
      }
     }
+    System.out.println("Medium mit dem Titel:" + titel +" nicht gefunden");
 }
 }
